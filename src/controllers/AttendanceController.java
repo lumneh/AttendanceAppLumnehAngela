@@ -154,5 +154,6 @@ public class AttendanceController {
         String lastSwipeDate = Swipe.formatSwipeDateTime(lastSwipe.getSwipeDateTime());
         System.out.println("The number of swipes for the room " + prompt + " is: "+ counter);
         System.out.println("The Last swipe Date for the room "+ prompt + " is: " + lastSwipeDate);
+         System.out.println("The Last swipe Date for the room "+ prompt + " is: " + lastSwipeDate);
     }
 }
